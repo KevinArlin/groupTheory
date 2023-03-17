@@ -1,0 +1,5 @@
+Files for AoPS Group Theory diagrams, organized by week. 
+Files that are designed for interactive 3D compilation can be compiled either at asymphost.xyz or on your local machine.
+Files that output animations can only be compiled on your local machine.
+Many files will only compile with solids.asy sharing a folder/selected along with the main file at asymphost.
+Some will only compile with animation2.asy as well, which is just a minor skin over the base library animation.
