@@ -1,0 +1,13 @@
+size(5.5cm);
+import labelpath; import graph;
+draw((0,-0.5)--(11,-0.5)--(11,8)--(0,8)--cycle,black+1);
+fill(Circle((4,4),3),lightgreen+white);
+fill(Circle((7,4),3),yellow+white);
+fill(Circle((4,4),3,-60,60)--Arc((7,4),3,120,240)--cycle,lightgreen+yellow+white);
+draw(Circle((4,4),3),black+1);
+draw(Circle((7,4),3),black+1);
+labelpath("multiples of 6",Arc((4,4),4,180,310));
+labelpath("multiples of 8",Arc((7,4),4,230,360));
+label("${\bf 16}$",(5.5,4));
+label("${\bf 51}$",(2.6,4));
+label("${\bf 34}$",(8.4,4));
